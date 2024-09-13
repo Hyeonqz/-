@@ -7,5 +7,4 @@ import com.hkjin.paymentsettlementsys.user.entity.User;
 
 @Transactional(readOnly = true)
 public interface UserRepository extends JpaRepository<User, Long> {
-
 }
